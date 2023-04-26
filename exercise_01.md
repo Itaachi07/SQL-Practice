@@ -8,7 +8,8 @@
 
 (S# CHAR(5) NOT NULL, Sname CHAR(20), status SMALLINT, city CHAR(15));
 TABLE S
-S# Sname status city
+
+S#  Sname   status  city
 
 S1 Smith 20 London
 S2 Jones 10 Paris
