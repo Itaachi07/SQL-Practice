@@ -24,14 +24,20 @@ S5 Adams 30 Athens
 (P# CHAR(6) NOT NULL, Pname CHAR(20), color CHAR(6), weight SMALLINT , city 
 CHAR(15));
 TABLE P
-P# Pname Color Weight City
+
+P#  Pname   Color   Weight  City
 
 
-P1 Nut Red 12 London
-P2 Bolt Green 17 Paris
-P3 Screw Blue 17 Rome
+P1  Nut     Red     12      London
+
+P2  Bolt    Green   17      Paris
+
+P3  Screw   Blue    17      Rome
+
 P4 Screw Red 14 London
+
 P5 Cam Blue 12 Paris
+
 P6 Cog Red 19 London
 ---------------------------------------------------------------
 
