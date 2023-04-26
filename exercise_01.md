@@ -1,14 +1,15 @@
 # Exercise No 1
 
-1. Create 'spj' database'.
+### 1. Create 'spj' database'.
 
-2. Create following tables in spj database.
+### 2. Create following tables in spj database.
 
- -CREAT TABLE S
+#### CREATE TABLE S
+
 (S# CHAR(5) NOT NULL, Sname CHAR(20), status SMALLINT, city CHAR(15));
 TABLE S
 S# Sname status city
-=============================
+
 S1 Smith 20 London
 S2 Jones 10 Paris
 S3 Blake 30 Paris
@@ -17,13 +18,14 @@ S5 Adams 30 Athens
 ----------------------------------------------------
 
 
- -CREATE TABLE P
+#### CREATE TABLE P
+
 (P# CHAR(6) NOT NULL, Pname CHAR(20), color CHAR(6), weight SMALLINT , city 
 CHAR(15));
 TABLE P
 P# Pname Color Weight City
 
-====================================
+
 P1 Nut Red 12 London
 P2 Bolt Green 17 Paris
 P3 Screw Blue 17 Rome
@@ -33,10 +35,12 @@ P6 Cog Red 19 London
 ---------------------------------------------------------------
 
 
- -CREATE TABLE J (J# CHAR(4) NOT NULL, Jname CHAR(10), City CHAR(15)); 
+#### CREATE TABLE J 
+
+(J# CHAR(4) NOT NULL, Jname CHAR(10), City CHAR(15)); 
 TABLE J
 J# Jname City
-===========================
+
 J1 Sorter Paris
 J2 Punch Rome
 J3 Reader Athens
@@ -47,11 +51,13 @@ J7 Tape London
 ------------------------------------------------
 
 
- -CREATE TABLE sp (S# CHAR(4) NOT NULL, P# CHAR(4) NOT NULL, J# CHAR(4) 
+#### CREATE TABLE sp 
+
+(S# CHAR(4) NOT NULL, P# CHAR(4) NOT NULL, J# CHAR(4) 
 NOT NULL, QTY INT);
 TABLE SP
 S# P# J# QTY
-========================
+
 S1 P1 J1 200
 S1 P1 J4 700
 S2 P3 J1 400
