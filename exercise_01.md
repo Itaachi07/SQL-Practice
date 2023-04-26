@@ -12,10 +12,16 @@ TABLE S
 S#  Sname   status  city
 
 S1 Smith 20 London
+
 S2 Jones 10 Paris
+
 S3 Blake 30 Paris
+
 S4 Clark 20 London
+
 S5 Adams 30 Athens 
+
+
 ----------------------------------------------------
 
 
@@ -46,14 +52,21 @@ P6 Cog Red 19 London
 
 (J# CHAR(4) NOT NULL, Jname CHAR(10), City CHAR(15)); 
 TABLE J
+
 J# Jname City
 
 J1 Sorter Paris
+
 J2 Punch Rome
+
 J3 Reader Athens
+
 J4 Console Athens
+
 J5 Collator London
+
 J6 Terminal Oslo
+
 J7 Tape London
 ------------------------------------------------
 
@@ -63,6 +76,7 @@ J7 Tape London
 (S# CHAR(4) NOT NULL, P# CHAR(4) NOT NULL, J# CHAR(4) 
 NOT NULL, QTY INT);
 TABLE SP
+
 S# P# J# QTY
 
 S1 P1 J1 200
