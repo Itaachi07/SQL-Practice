@@ -21,6 +21,8 @@ table (with the duplicate values suppressed).
 _Select Distinct snum from orders;_ 
 ----------------------------------------------------
 4. Write a query that will give you all orders for more than Rs. 1,000.
+
+_select * from orders where amt>1000;_
 ----------------------------------------------------
 5. Write a query that will give you the names and cities of all salespeople in London with 
 a commission above 0.10.
