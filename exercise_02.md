@@ -17,6 +17,8 @@ _select rating, cname from customers where city='san jose';_
 ----------------------------------------------------
 3. Write a query that will produce the snum values of all salespeople from the Orders 
 table (with the duplicate values suppressed).
+
+_Select Distinct snum from orders;_ 
 ----------------------------------------------------
 4. Write a query that will give you all orders for more than Rs. 1,000.
 ----------------------------------------------------
