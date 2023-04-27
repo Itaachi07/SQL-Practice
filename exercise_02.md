@@ -1,4 +1,4 @@
-# Exercise No 2
+
 # Exercise No 2
 
 Write the SELECT queries to do the following:-
@@ -7,9 +7,13 @@ Note : To solve below queries use “sales” database
 
 1. Write a query that produces all rows from the Customers table for which the 
 salesperson’s number is 1001.
+
+_select * from customers where snum =1001;_
 ----------------------------------------------------
 2. Write a select command that produces the rating followed by the name of each 
 customer in San Jose.
+
+_select rating, cname from customers where city='san jose';_
 ----------------------------------------------------
 3. Write a query that will produce the snum values of all salespeople from the Orders 
 table (with the duplicate values suppressed).
