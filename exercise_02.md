@@ -22,10 +22,11 @@ _Select Distinct snum from orders;_
 ----------------------------------------------------
 4. Write a query that will give you all orders for more than Rs. 1,000.
 
-_select * from orders where amt>1000;_
+select * from orders where amt>1000;
 ----------------------------------------------------
-5. Write a query that will give you the names and cities of all salespeople in London with 
-a commission above 0.10.
+5. Write a query that will give you the names and cities of all salespeople in London with a commission above 0.10.
+
+select sname, city from salespeople where city ='London' AND comm>0.10;
 ----------------------------------------------------
 6. Write a query on the Customers table whose output will exclude all customers with a 
 rating <= 100, unless they are located in Rome.
