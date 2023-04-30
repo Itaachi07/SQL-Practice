@@ -56,3 +56,7 @@ Select snum, sname, city, comm from Salespeople Where (comm >= .12 or comm <= .1
      3)   select *  from customers c inner join salespeople s ON s.snum = c.snum where s.snum IN (1001,1004);
 ----------------------------------------------------
 11. Write a query that selects all orders except those with zeroes or NULLs in the amt field
+
+        select * from orders where amt is not null or not amt = 0;
+
+        
