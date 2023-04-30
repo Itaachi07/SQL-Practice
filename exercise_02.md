@@ -59,4 +59,4 @@ Select snum, sname, city, comm from Salespeople Where (comm >= .12 or comm <= .1
 
         select * from orders where amt is not null or not amt = 0;
 
-        
+----------------------------------------------------
