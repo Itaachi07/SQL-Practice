@@ -49,11 +49,12 @@ Select snum, sname, city, comm from Salespeople Where (comm >= .12 or comm <= .1
 ----------------------------------------------------
 10. Write a query that selects all of the customers serviced by Peel or Motika. (Hint:the snum field relates the two tables to one another).
         
-     1)   select * from customers where snum IN (1001,1004);
+        1)   select * from customers where snum IN (1001,1004);
      
-     2)   select c.cnum, c.cname, c.city, s.sname from customers c inner join salespeople s ON s.snum = c.snum where s.snum IN (1001,1004); 
+        2)   select c.cnum, c.cname, c.city, s.sname from customers c inner join salespeople s ON s.snum = c.snum where s.snum IN (1001,1004); 
 
-     3)   select *  from customers c inner join salespeople s ON s.snum = c.snum where s.snum IN (1001,1004);
+        3)   select *  from customers c inner join salespeople s ON s.snum = c.snum where s.snum IN (1001,1004);
+
 ----------------------------------------------------
 11. Write a query that selects all orders except those with zeroes or NULLs in the amt field
 
