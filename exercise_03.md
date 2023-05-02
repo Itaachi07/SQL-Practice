@@ -35,6 +35,8 @@ Note : To solve below queries use “hr” database
 
 6. Display first name, salary, commission pct, and hire date for employees with salary less than 10000.
 
+        select first_name, salary, commission_pct, hire_date from employees where salary <10000;
+
 ----------------------------------------------------
 
 7. Display employees where the first name or last name starts with S.
