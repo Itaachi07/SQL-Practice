@@ -29,6 +29,7 @@ Note : To solve below queries use “hr” database
 
 5. Display details of employee with ID 150 or 160.
 
+        select * from employees where employee_id = 150 OR employee_id =160 ; 
         
 ----------------------------------------------------
 
