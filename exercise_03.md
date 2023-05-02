@@ -11,6 +11,8 @@ Note : To solve below queries use “hr” database
 
 2. Write a query to get all employee details from the employee table order by first name, descending.
 
+        select * from employees order by first_name desc limit 10;
+
 ----------------------------------------------------
 
 3. Write a query to get the employee ID, names (first_name, last_name), salary in ascending order of salary.
