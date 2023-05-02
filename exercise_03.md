@@ -18,13 +18,18 @@ Note : To solve below queries use “hr” database
 3. Write a query to get the employee ID, names (first_name, last_name), salary in ascending order of salary.
 
         select employee_id, concat(first_name, last_name) as Name, salary from employees limit 15; 
+
 ----------------------------------------------------
 
 4. Display first name and join date of the employees who is either IT Programmer or Sales Man.
+
+        select First_name, hire_date from employees where department_id IN (60,80) limit 15;
+
 ----------------------------------------------------
 
 5. Display details of employee with ID 150 or 160.
 
+        
 ----------------------------------------------------
 
 6. Display first name, salary, commission pct, and hire date for employees with salary less than 10000.
