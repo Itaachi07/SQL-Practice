@@ -5,6 +5,8 @@ Note : To solve below queries use “hr” database
 
 1. Write a query to get unique department ID from employee table.
 
+        select distinct department_id from employees;
+
 ----------------------------------------------------
 
 2. Write a query to get all employee details from the employee table order by first name, descending.
