@@ -64,6 +64,8 @@ Note : To solve below queries use “hr” database
 
 11. Display unique contry_id from locations table.
 
+        select distinct country_id from locations;
+        
 ----------------------------------------------------
 
 12. Display all employees whose have job_id IT_PROG and FI_ACCOUNT.
