@@ -58,6 +58,8 @@ Note : To solve below queries use “hr” database
 
 10. Display employees first_name,email who are working in “Executive” department.
 
+        select first_name, email from employees where department_id = 90;
+
 ----------------------------------------------------
 
 11. Display unique contry_id from locations table.
