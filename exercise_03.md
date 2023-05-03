@@ -47,10 +47,12 @@ Note : To solve below queries use “hr” database
 8. Display details of jobs in the descending order of the title.
 
         select * from jobs order by job_title desc;
-        
+
 ----------------------------------------------------
 
 9. Display details of the employees where commission percentage is null and salary in the range 5000 to 10000 and department is 30.
+
+        select * from employees where commission_pct = 0 AND salary between 5000 AND 10000 AND department_id =30;
 
 ----------------------------------------------------
 
