@@ -41,6 +41,8 @@ Note : To solve below queries use “hr” database
 
 7. Display employees where the first name or last name starts with S.
 
+        select first_name, last_name from employees where first_name like 's%' or last_name like 's%';
+        
 ----------------------------------------------------
 8. Display details of jobs in the descending order of the title.
 
