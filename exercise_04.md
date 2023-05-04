@@ -4,11 +4,12 @@ Note : To solve below queries use “spj” database
 
 1. Display the PNAME and COLOR from the P table for the CITY=”London”.
 
-
+        select Pname, color from p where city ='London';
 ----------------------------------------------------
 
 2. Display all the Suppliers from London.
 
+        
 ----------------------------------------------------
 
 3. Display all the Suppliers from Paris or Athens.
