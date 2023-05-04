@@ -9,7 +9,7 @@ Note : To solve below queries use “spj” database
 
 2. Display all the Suppliers from London.
 
-        
+        select * from s where city = 'london';
 ----------------------------------------------------
 
 3. Display all the Suppliers from Paris or Athens.
