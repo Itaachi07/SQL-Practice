@@ -71,7 +71,9 @@ Note : To solve below queries use “hr” database
 12. Display all employees whose have job_id IT_PROG and FI_ACCOUNT.
 
         select * from employees where job_id IN ('IT_PROG','FI_ACCOUNT');
-        
+
 ----------------------------------------------------
 
 13. Display all countries in ascending order
+
+        select * from countries order by country_name;
