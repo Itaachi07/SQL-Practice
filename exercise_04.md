@@ -14,6 +14,7 @@ Note : To solve below queries use “spj” database
 
 3. Display all the Suppliers from Paris or Athens.
 
+        select * from s where city In('paris','athens');
 ----------------------------------------------------
 
 4. Display all the Projects in Athens.
