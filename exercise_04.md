@@ -29,7 +29,7 @@ Note : To solve below queries use “spj” database
 
 6. Display all the Suppliers with a Status greater than or equal to 20.
 
-        
+        select * from s  where status >= 20;
 ----------------------------------------------------
 
 7. Display all the Suppliers except the Suppliers from London.
