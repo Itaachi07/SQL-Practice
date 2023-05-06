@@ -54,6 +54,7 @@ Note : To solve below queries use “spj” database
 
 11. Display all the Suppliers with a status between 10 and 20.
 
+        select * from s where status between 10 and 20;
 ----------------------------------------------------
 
 12. Display all the Parts and their Weight, which are not in the range of 10 and 15
