@@ -49,6 +49,7 @@ Note : To solve below queries use “spj” database
 
 10. Display the Part Table in the ascending order of CITY and within the city in the ascending order of Part names.
 
+       select * from p order by city, pname; 
 ----------------------------------------------------
 
 11. Display all the Suppliers with a status between 10 and 20.
