@@ -44,6 +44,7 @@ Note : To solve below queries use “spj” database
 
 9. Display the Supplier table in the descending order of CITY.
 
+        select * from s order by city desc;
 ----------------------------------------------------
 
 10. Display the Part Table in the ascending order of CITY and within the city in the ascending order of Part names.
