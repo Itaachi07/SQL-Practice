@@ -39,6 +39,7 @@ Note : To solve below queries use “spj” database
 
 8. Display only the Cities from where the Suppliers come from.
 
+        select city from s;
 ----------------------------------------------------
 
 9. Display the Supplier table in the descending order of CITY.
