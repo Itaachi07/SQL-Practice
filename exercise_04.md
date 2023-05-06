@@ -22,12 +22,14 @@ Note : To solve below queries use “spj” database
         select * from j where city='Athens';
 ----------------------------------------------------
 
-5. Display all the Part names with the weight between 12 and 1(inclusive of both).
+5. Display all the Part names with the weight between 12 and 14(inclusive of both).
 
+        select * from p where weight between 12 and 14;
 ----------------------------------------------------
 
 6. Display all the Suppliers with a Status greater than or equal to 20.
 
+        
 ----------------------------------------------------
 
 7. Display all the Suppliers except the Suppliers from London.
