@@ -58,3 +58,5 @@ Note : To solve below queries use “spj” database
 ----------------------------------------------------
 
 12. Display all the Parts and their Weight, which are not in the range of 10 and 15
+
+        select pname, weight from p where weight not between 10 and 15;
