@@ -19,6 +19,7 @@ Note : To solve below queries use “spj” database
 
 4. Display all the Projects in Athens.
 
+        select * from j where city='Athens';
 ----------------------------------------------------
 
 5. Display all the Part names with the weight between 12 and 1(inclusive of both).
