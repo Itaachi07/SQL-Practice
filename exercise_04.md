@@ -34,6 +34,7 @@ Note : To solve below queries use “spj” database
 
 7. Display all the Suppliers except the Suppliers from London.
 
+        select * from s where not city ='london';
 ----------------------------------------------------
 
 8. Display only the Cities from where the Suppliers come from.
