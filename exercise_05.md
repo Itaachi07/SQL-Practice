@@ -26,6 +26,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 7. Display first name and date of first salary of the employees.
 
+        select First_name, Date_add(Hire_date,Interval 1 Month)as First_salary_day from employees;
 ----------------------------------------------------
 8. Display first name and experience of the employees.
 
