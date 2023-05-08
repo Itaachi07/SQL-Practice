@@ -22,6 +22,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 6. Display employee ID and the date on which he ended his previous job.
 
+        select employee_ID, hire_date as Last_day_of_previous_job from employees;
 ----------------------------------------------------
 7. Display first name and date of first salary of the employees.
 
