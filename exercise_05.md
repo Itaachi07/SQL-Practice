@@ -4,9 +4,11 @@ Note : To solve below queries use “hr” database
 
 1. Display first name and last name after converting the first letter of each name to upper case and the rest to lower case.
 
+        select 
 ----------------------------------------------------
 2. Display the first word in job title.
 
+        select 
 ----------------------------------------------------
 3. Display the length of first name for employees where last name contain character ‘b’ after 3rd position.
 
@@ -16,6 +18,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 5. Display first name, salary, and round the salary to thousands.
 
+        select first_name, round(salary,0) from employees;
 ----------------------------------------------------
 6. Display employee ID and the date on which he ended his previous job.
 
