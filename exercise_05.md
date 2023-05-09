@@ -46,7 +46,11 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 12. Display number of employees joined after 15th of the month.
 
+        select * from employees where day(hire_date) >15; 
 ----------------------------------------------------
 13. Display third highest salary of employees
 
+        
+
+       
 ----------------------------------------------------
