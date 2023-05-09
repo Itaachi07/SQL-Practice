@@ -50,7 +50,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 13. Display third highest salary of employees
 
-        
+        select * from employees order by salary desc limit 2,1;
 
        
 ----------------------------------------------------
