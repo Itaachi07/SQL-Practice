@@ -42,6 +42,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 11. Display the number of days between system date and 1st January 2011.
 
+        select datediff (now(),'2011-01-01');
 ----------------------------------------------------
 12. Display number of employees joined after 15th of the month.
 
