@@ -30,9 +30,11 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 8. Display first name and experience of the employees.
 
+        select e.first_name,  from employees e full join job_history jh on e.employee_id = jh.employee_id ;
 ----------------------------------------------------
 9. Display first name of employees who joined in 2001.
 
+        select first_name from employees where year(hire_date)=2001;
 ----------------------------------------------------
 10. Display employees who joined in the current year.
 
