@@ -38,6 +38,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 10. Display employees who joined in the current year.
 
+        select * from employees where hire_date = year(now());
 ----------------------------------------------------
 11. Display the number of days between system date and 1st January 2011.
 
