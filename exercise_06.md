@@ -4,10 +4,12 @@
 Note : To solve below queries use “hr” database
 1. Display manager ID and number of employees managed by the manager.
 
+        select manager_id, count(employee_id) from employees group by manager_id; 
 
 ----------------------------------------------------
 2. Display the country ID and number of cities we have in the country.
 
+        select country_id, count(citay) from locations group by country_id;
 
 ----------------------------------------------------
 3. Display average salary of employees in each department who have commission percentage.
