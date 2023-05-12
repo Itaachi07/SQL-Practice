@@ -22,12 +22,16 @@ Note : To solve below queries use “hr” database
 4. Display job ID, number of employees, sum of salary, and difference between highest salary and lowest salary of the employees of the job.
 
         select job_id, count(employee_id), sum(salary), (max(salary)-min(salary)) as diff from employees group by job_id;
+
 ----------------------------------------------------
 5. Display job ID for jobs with average salary more than 10000. 
+
+        select job_id, avg(salary) as avgsal from employees group by job_id having avg(salary)>10000 ;
 
 ----------------------------------------------------
 6. Display years in which more than 10 employees joined.
 
+        select year(hire_date) from employees group by year(hire_date) having count(employee_id)>10;
 ----------------------------------------------------
 7. Display departments in which more than five employees have commission percentage.
 
