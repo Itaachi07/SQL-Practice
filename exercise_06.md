@@ -40,6 +40,8 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 8. Display employee ID for employees who did more than one job in the past.
 
+        select * from employees ;
+
 ----------------------------------------------------
 9. Display job ID of jobs that were done by more than 3 employees for more than 100 days.
 
