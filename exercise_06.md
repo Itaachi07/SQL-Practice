@@ -32,9 +32,11 @@ Note : To solve below queries use “hr” database
 6. Display years in which more than 10 employees joined.
 
         select year(hire_date) from employees group by year(hire_date) having count(employee_id)>10;
+
 ----------------------------------------------------
 7. Display departments in which more than five employees have commission percentage.
 
+        select job_id from employees group by job_id having count(employee_id) >5;
 ----------------------------------------------------
 8. Display employee ID for employees who did more than one job in the past.
 
