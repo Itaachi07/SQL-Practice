@@ -14,6 +14,8 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 3. Display average salary of employees in each department who have commission percentage.
 
+        select 
+        
 ----------------------------------------------------
 4. Display job ID, number of employees, sum of salary, and difference between highest salary and lowest salary of the employees of the job.
 

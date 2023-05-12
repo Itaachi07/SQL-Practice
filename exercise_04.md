@@ -54,7 +54,7 @@ Note : To solve below queries use “spj” database
 
 10. Display the Part Table in the ascending order of CITY and within the city in the ascending order of Part names.
 
-       select * from p order by city, pname; 
+        select * from p order by city, pname; 
 
 ----------------------------------------------------
 
