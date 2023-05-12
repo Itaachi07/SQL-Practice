@@ -21,6 +21,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 4. Display job ID, number of employees, sum of salary, and difference between highest salary and lowest salary of the employees of the job.
 
+        select job_id, count(employee_id), sum(salary), (max(salary)-min(salary)) as diff from employees group by job_id;
 ----------------------------------------------------
 5. Display job ID for jobs with average salary more than 10000. 
 
