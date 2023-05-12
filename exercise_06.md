@@ -14,8 +14,10 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 3. Display average salary of employees in each department who have commission percentage.
 
-        select 
+        select department_id, avg(salary) from employees group by department_id;
         
+        select d.department_name, avg(e.salary) from employees e inner join 
+        departments d on e.department_id = d.department_id group by e.department_id;
 ----------------------------------------------------
 4. Display job ID, number of employees, sum of salary, and difference between highest salary and lowest salary of the employees of the job.
 
