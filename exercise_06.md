@@ -40,7 +40,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 8. Display employee ID for employees who did more than one job in the past.
 
-        select * from employees ;
+        select employee_id from job_history group by employee_id having count(employee_id)>1; 
 
 ----------------------------------------------------
 9. Display job ID of jobs that were done by more than 3 employees for more than 100 days.
@@ -53,5 +53,8 @@ Note : To solve below queries use “hr” database
 
 ----------------------------------------------------
 12. Display details of departments in which the maximum salary is more than 1000
+
+
+select max(salary) from employees where salary < (select max(salary)from employees);
 
 ----------------------------------------------------
