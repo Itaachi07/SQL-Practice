@@ -45,6 +45,8 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 9. Display job ID of jobs that were done by more than 3 employees for more than 100 days.
 
+        select job_id, count(job_id) from employees where datediff(now(),hire_date)>100 group by job_id having count(job_id)>3;
+
 ----------------------------------------------------
 10. Display department ID, year, and Number of employees joined. 
 
