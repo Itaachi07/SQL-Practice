@@ -50,9 +50,11 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 10. Display department ID, year, and Number of employees joined. 
 
+        select department_id, round(avg(year(hire_date))), count(employee_id) from employees group by department_id;
 ----------------------------------------------------
 11. Display how many employees joined in each month of the current year.
 
+        select * from employees 
 ----------------------------------------------------
 12. Display details of departments in which the maximum salary is more than 1000
 
