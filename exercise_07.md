@@ -5,6 +5,7 @@ Use appropriate joins to solve following queries.
 Note : To solve below queries use “hr” database
 1. Display department name and manager first name.
 
+        select e.first_name, d.department_name from employees e inner join departments d ON e.department_id = d.department_id;
 ----------------------------------------------------
 2. Display department name, manager name, and city.
 
