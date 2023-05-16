@@ -58,6 +58,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 12. Display details of departments in which the maximum salary is more than 1000
 
+        select d.department_id , d.department_name, e.salary from departments d inner join employees e on e.salary>10000;
 
 select max(salary) from employees where salary < (select max(salary)from employees);
 
