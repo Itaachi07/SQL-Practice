@@ -4,6 +4,7 @@
 Note : To solve below queries use “sales” database
 1. Write a query that lists each order number followed by the name of the customer who made the order.
 
+        select o.onum, c.cname from orders o inner join customers c on o.cnum=c.cnum; 
 ----------------------------------------------------
 2. Write a query that gives the names of both the salesperson and the customer for each order along with the order number.
 
