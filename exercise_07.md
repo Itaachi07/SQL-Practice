@@ -8,6 +8,7 @@ Note : To solve below queries use “sales” database
 ----------------------------------------------------
 2. Write a query that gives the names of both the salesperson and the customer for each order along with the order number.
 
+        select o.onum, c.cname, s.sname from orders o inner join customers c on o.cnum=c.cnum inner join salespeople s on s.snum=o.snum; 
 ----------------------------------------------------
 3. Write a query that produces all customers serviced by salespeople with a commission above 12%. Output the customer’s name, the salesperson’s name, and the salesperson’s rate of commission.
 
