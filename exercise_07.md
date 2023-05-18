@@ -1,53 +1,15 @@
 
 # Exercise 07
 
-Use appropriate joins to solve following queries.
-Note : To solve below queries use “hr” database
-1. Display department name and manager first name.
-
-        select e.first_name, d.department_name from employees e inner join departments d ON e.department_id = d.department_id;
-----------------------------------------------------
-2. Display department name, manager name, and city.
-
-----------------------------------------------------
-3. Display country name, city, and department name.
-
-----------------------------------------------------
-4. Display job title, department name, employee last name, starting date for all jobs from 1993 to 1998.
-
-----------------------------------------------------
-5. Display job title and average salary of employees.
-
-----------------------------------------------------
-6. Display job title, employee name, and the difference between maximum salary for the job and salary of the employee.
-
-----------------------------------------------------
-7. Display last name, job title of employees who have commission percentage and belongs to department 30.
-
-----------------------------------------------------
-8. Display details of jobs that were done by any employee who is currently drawing more than 15000 of salary.
-
-----------------------------------------------------
-9. Display department name, manager name, and salary of the manager for all 
-managers whose experience is more than 5 years.
-
-----------------------------------------------------
-10. Display employee name if the employee joined before his manager.
-
-----------------------------------------------------
-11. Display employee name, job title for the jobs employee did in the past where the job was done less than six months.
-
-----------------------------------------------------
-12. Display employee name and country in which he is working.
-
-----------------------------------------------------
-13. Display department name, average salary and number of employees with 
-commission within the department.
-
-----------------------------------------------------
-14. Display the month in which more than 5 employees joined in any department located in Sydney.
-
-----------------------------------------------------
-15. Display employee name, job title, start date, and end date of past jobs of all employees with commission percentage null.
-
-----------------------------------------------------
+Note : To solve below queries use “sales” database
+1. Write a query that lists each order number followed by the name of the customer who made the order.
+2. Write a query that gives the names of both the salesperson and the customer for 
+each order along with the order number.
+3. Write a query that produces all customers serviced by salespeople with a commission 
+above 12%. Output the customer’s name, the salesperson’s name, and the 
+salesperson’s rate of commission.
+4. Write a query that calculates the amount of the salesperson’s commission on each 
+order by a customer with a rating above 100.
+5. Write a query that produces all pairs of salespeople who are living in the same 
+city.Exclude combinations of salespeople with themselves as well as duplicate rows 
+with the order reversed
