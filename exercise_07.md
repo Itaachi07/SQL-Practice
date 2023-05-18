@@ -12,6 +12,7 @@ Note : To solve below queries use “sales” database
 ----------------------------------------------------
 3. Write a query that produces all customers serviced by salespeople with a commission above 12%. Output the customer’s name, the salesperson’s name, and the salesperson’s rate of commission.
 
+        select c.cname, s.sname, s.comm from customers c inner join salespeople s ON c.snum=s.snum where comm>0.12;
 ----------------------------------------------------
 4. Write a query that calculates the amount of the salesperson’s commission on each order by a customer with a rating above 100.
 
