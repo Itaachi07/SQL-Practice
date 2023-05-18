@@ -16,7 +16,7 @@ Note : To solve below queries use “sales” database
 ----------------------------------------------------
 4. Write a query that calculates the amount of the salesperson’s commission on each order by a customer with a rating above 100.
 
-
+        select s.comm * o.amt as commision from orders o inner join salespeople s ON s.snum=o.snum inner join customers c ON s.snum=c.snum where c.rating>100;
 ----------------------------------------------------
 5. Write a query that produces all pairs of salespeople who are living in the same city.Exclude combinations of salespeople with themselves as well as duplicate rows with the order reversed
 
