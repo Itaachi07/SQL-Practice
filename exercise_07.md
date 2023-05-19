@@ -20,4 +20,5 @@ Note : To solve below queries use “sales” database
 ----------------------------------------------------
 5. Write a query that produces all pairs of salespeople who are living in the same city.Exclude combinations of salespeople with themselves as well as duplicate rows with the order reversed
 
+        
 ----------------------------------------------------

@@ -12,7 +12,7 @@ Note : To solve below queries use “hr” database
     select d.department_name,concat(e.first_name,e.last_name ), l.city from departments d left join employees e  ON e.employee_id = d.manager_id inner join locations l ON l.location_id =d.location_id ;
 ----------------------------------------------------
 3. Display country name, city, and department name.
-
+    selext * from regions;
 ----------------------------------------------------
 4. Display job title, department name, employee last name, starting date for all jobs from 1993 to 1998.
 
