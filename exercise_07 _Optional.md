@@ -3,6 +3,7 @@
 
 Use appropriate joins to solve following queries.
 Note : To solve below queries use “hr” database
+
 1. Display department name and manager first name.
 
         select e.first_name, d.department_name from employees e inner join departments d ON e.department_id = d.department_id;
@@ -12,7 +13,8 @@ Note : To solve below queries use “hr” database
     select d.department_name,concat(e.first_name,e.last_name ), l.city from departments d left join employees e  ON e.employee_id = d.manager_id inner join locations l ON l.location_id =d.location_id ;
 ----------------------------------------------------
 3. Display country name, city, and department name.
-    select * from regions;
+    select c.country_name, l.city, d.department_name from countries c left join locations l on c.country_id = l.country_id left join departments d ON l.location_id = d.location_id ;
+
 ----------------------------------------------------
 4. Display job title, department name, employee last name, starting date for all jobs from 1993 to 1998.
 
