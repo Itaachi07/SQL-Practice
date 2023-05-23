@@ -22,6 +22,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 5. Display job title and average salary of employees.
 
+        select job_id , avg(salary) from employees group by job_id;
 ----------------------------------------------------
 6. Display job title, employee name, and the difference between maximum salary for the job and salary of the employee.
 
