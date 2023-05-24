@@ -34,6 +34,7 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 8. Display details of jobs that were done by any employee who is currently drawing more than 15000 of salary.
 
+        select * from employees where salary > 15000;
 ----------------------------------------------------
 9. Display department name, manager name, and salary of the manager for all 
 managers whose experience is more than 5 years.
