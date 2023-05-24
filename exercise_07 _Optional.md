@@ -26,9 +26,11 @@ Note : To solve below queries use “hr” database
 ----------------------------------------------------
 6. Display job title, employee name, and the difference between maximum salary for the job and salary of the employee.
 
+        
 ----------------------------------------------------
 7. Display last name, job title of employees who have commission percentage and belongs to department 30.
 
+        select last_name, job_id from employees where department_id = 30 AND commission_pct >0;
 ----------------------------------------------------
 8. Display details of jobs that were done by any employee who is currently drawing more than 15000 of salary.
 
