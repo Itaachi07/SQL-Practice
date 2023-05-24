@@ -39,6 +39,7 @@ Note : To solve below queries use “hr” database
 9. Display department name, manager name, and salary of the manager for all 
 managers whose experience is more than 5 years.
 
+
 ----------------------------------------------------
 10. Display employee name if the employee joined before his manager.
 
@@ -48,6 +49,10 @@ managers whose experience is more than 5 years.
 ----------------------------------------------------
 12. Display employee name and country in which he is working.
 
+        select e.first_name, c.country_name from employees e 
+        left join departments d ON  e.department_id  = d.department_id  
+        left join locations l ON d.location_id = l.location_id 
+        left join countries c ON l.country_id = c.country_id limit 10;
 ----------------------------------------------------
 13. Display department name, average salary and number of employees with 
 commission within the department.
