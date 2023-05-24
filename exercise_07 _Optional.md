@@ -57,8 +57,10 @@ managers whose experience is more than 5 years.
 13. Display department name, average salary and number of employees with 
 commission within the department.
 
+        select department_id , avg(salary), count(employee_id) from employees group by department_id; 
 ----------------------------------------------------
 14. Display the month in which more than 5 employees joined in any department located in Sydney.
+
 
 ----------------------------------------------------
 15. Display employee name, job title, start date, and end date of past jobs of all employees with commission percentage null.
